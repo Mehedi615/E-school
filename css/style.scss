@@ -150,7 +150,11 @@ body {
     border-radius: 18px;
     padding: 10px 20px;
     margin: 10px;
-
+    &:hover {
+      border-radius: 18px;
+      background: #f4f4f4;
+      box-shadow: 20px 20px 60px #cfcfcf, -20px -20px 60px #ffffff;
+    }
     small {
       font-size: 16px;
       line-height: 24px;
@@ -183,4 +187,35 @@ body {
       height: 234px;
     }
   }
+}
+
+// testimonial
+
+.testimonial {
+  h2 {
+    font-weight: bold;
+    font-size: 36px;
+  }
+  &_image {
+    img {
+      margin-right: 20px;
+      width: 120px;
+      height: 120px;
+    }
+  }
+  &_content {
+    width: 583px;
+    height: 90px;
+  }
+}
+
+// footer
+.bg_dark {
+  color: #f4f4f4;
+  background: #282531;
+}
+
+.footer_content {
+  display: grid;
+  grid-area: repeat(4, 1fr);
 }

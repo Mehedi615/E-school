@@ -173,6 +173,13 @@ body {
   margin: 10px;
 }
 
+.course_card:hover {
+  border-radius: 18px;
+  background: #f4f4f4;
+  -webkit-box-shadow: 20px 20px 60px #cfcfcf, -20px -20px 60px #ffffff;
+          box-shadow: 20px 20px 60px #cfcfcf, -20px -20px 60px #ffffff;
+}
+
 .course_card small {
   font-size: 16px;
   line-height: 24px;
@@ -207,5 +214,32 @@ body {
 .course_card img {
   width: 331px;
   height: 234px;
+}
+
+.testimonial h2 {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.testimonial_image img {
+  margin-right: 20px;
+  width: 120px;
+  height: 120px;
+}
+
+.testimonial_content {
+  width: 583px;
+  height: 90px;
+}
+
+.bg_dark {
+  color: #f4f4f4;
+  background: #282531;
+}
+
+.footer_content {
+  display: -ms-grid;
+  display: grid;
+  grid-area: repeat(4, 1fr);
 }
 /*# sourceMappingURL=style.css.map */
