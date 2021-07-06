@@ -237,9 +237,7 @@ body {
   background: #282531;
 }
 
-.footer_content {
-  display: -ms-grid;
-  display: grid;
-  grid-area: repeat(4, 1fr);
+footer {
+  padding: 2rem 0;
 }
 /*# sourceMappingURL=style.css.map */
